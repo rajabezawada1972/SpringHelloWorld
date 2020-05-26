@@ -18,5 +18,11 @@ public class SpringHelloWorldExApplication {
 		
 		return "HELLO WORLD...............";
 	}
+	
+	@GetMapping("/getAllData")
+	public @ResponseBody String getAllData(){
+		
+		return "HELLO WORLD..getAllData.............";
+	}
 
 }
