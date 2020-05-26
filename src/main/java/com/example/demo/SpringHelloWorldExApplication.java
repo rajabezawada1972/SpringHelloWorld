@@ -16,7 +16,7 @@ public class SpringHelloWorldExApplication {
 	@GetMapping("/getData")
 	public @ResponseBody String getData(){
 		
-		return "HELLO WORLD";
+		return "HELLO WORLD...............";
 	}
 
 }
